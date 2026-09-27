@@ -1,5 +1,3 @@
-![Dont Xpose Me](fastlane/metadata/android/en-US/images/icon.png)
-
 # Dont Xpose Me
 
 ![Android 12+](https://img.shields.io/badge/Android-12%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
