@@ -1,14 +1,33 @@
-# Dont Xpose Me
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/icon.png" width="80" alt="Dont Xpose Me Icon" />
+</p>
 
-![Android 12+](https://img.shields.io/badge/Android-12%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-2.0-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)
+<h1 align="center">Dont Xpose Me</h1>
 
-Personal **duress PIN** for Magisk + LSPosed on AOSP-like lock screens.
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-12%2B-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android 12+" />
+  <img src="https://img.shields.io/badge/Kotlin-2.0-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square" alt="License" />
+</p>
 
-[Overview](#overview) • [Features](#features) • [Requirements](#requirements) • [Install](#install) • [Build](#build) • [How it works](#how-it-works) • [Safety](#safety) • [Releases](#releases)
+<p align="center">
+  Personal <strong>duress PIN</strong> for Magisk + LSPosed on AOSP-like lock screens.
+</p>
 
-![Setup screen showing status checks, the duress PIN fields, and test mode](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png) 
+<p align="center">
+  <a href="#overview">Overview</a> &bull;
+  <a href="#features">Features</a> &bull;
+  <a href="#requirements">Requirements</a> &bull;
+  <a href="#install">Install</a> &bull;
+  <a href="#build">Build</a> &bull;
+  <a href="#how-it-works">How it works</a> &bull;
+  <a href="#safety">Safety</a> &bull;
+  <a href="#releases">Releases</a>
+</p>
+
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="280" alt="Setup screen showing status checks, the duress PIN fields, and test mode" />
+</p> 
 
 > [!WARNING]
 > Armed mode is irreversible. A matching PIN calls `AndroidKeyStoreMaintenance.deleteAllKeys()` (KeyMint — File-Based Encryption wrapping keys are destroyed), then attempts a recovery userdata wipe, then shuts down if still running. There is no file shred. Stay in **test mode** until a match shows under **Test attempts** in the app.
