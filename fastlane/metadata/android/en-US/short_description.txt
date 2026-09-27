@@ -1,0 +1,1 @@
+Duress PIN for LSPosed: wipe KeyMint keys and shut down

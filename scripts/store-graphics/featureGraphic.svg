@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500">
+  <rect width="1024" height="500" fill="#121212"/>
+  <rect x="64" y="140" width="180" height="180" rx="36" fill="#1A1A2E"/>
+  <g transform="translate(64 140) scale(1.666)">
+    <path fill="#E53935" d="M54,30c-10,0 -18,8 -18,18v8h-4v28h44V56h-4v-8c0,-10 -8,-18 -18,-18zM54,38c5.5,0 10,4.5 10,10v8H44v-8c0,-5.5 4.5,-10 10,-10z"/>
+  </g>
+  <text x="280" y="220" fill="#FFFFFF" font-size="56" font-family="DejaVu Sans, Noto Sans, sans-serif" font-weight="700">Dont Xpose Me</text>
+  <text x="280" y="280" fill="#EF5350" font-size="28" font-family="DejaVu Sans, Noto Sans, sans-serif">Duress PIN - KeyMint wipe - shutdown</text>
+  <text x="280" y="330" fill="#90CAF9" font-size="22" font-family="DejaVu Sans, Noto Sans, sans-serif">Magisk + LSPosed module for AOSP-like lock screens</text>
+</svg>

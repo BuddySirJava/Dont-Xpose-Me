@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dont Xpose Me</string>
+    <string name="xposed_description">Duress PIN: deleteAllKeys, recovery wipe, then shutdown</string>
+    <string name="warning_title">Irreversible cryptographic wipe</string>
+    <string name="warning_body">Entering the duress PIN destroys KeyMint encryption keys and shuts the device down. Your data cannot be recovered. This is an OS-level Magisk/LSPosed feature — not GrapheneOS Weaver/SE duress. Test on a spare device. Never arm until the status checks pass.</string>
+</resources>

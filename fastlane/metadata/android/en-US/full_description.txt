@@ -1,0 +1,36 @@
+<b>Dont Xpose Me</b> is a Magisk + LSPosed module that adds a duress PIN to AOSP-like lock screens.
+
+When the configured PIN is entered at an OS credential prompt while armed, the module:
+
+<ol>
+<li>Calls AndroidKeyStoreMaintenance.deleteAllKeys() so File-Based Encryption wrapping keys are destroyed (retries once on failure)</li>
+<li>Requests a recovery userdata wipe (RecoverySystem.rebootWipeUserData, or --wipe_data + reboot recovery)</li>
+<li>Shuts the device down if still running</li>
+</ol>
+
+There is no file shred. The wipe is irreversible. Matching credentials are rejected so the phone does not unlock.
+
+<b>Requirements</b>
+
+<ul>
+<li>Magisk (root)</li>
+<li>LSPosed (Zygisk)</li>
+<li>AOSP-like SystemUI (Pixel / Lineage). OEM skins may break the hook</li>
+<li>Android 12 or newer</li>
+</ul>
+
+<b>Safety</b>
+
+<ul>
+<li>Stays in test mode by default; matches appear under Test attempts in the app</li>
+<li>The app refuses to arm if the hook is not loaded or deleteAllKeys is missing</li>
+<li>Do not use your real lock PIN as the duress PIN</li>
+<li>If auto-confirm is on, a shorter real PIN can submit before you finish typing the duress PIN</li>
+<li>Verify an armed wipe on a spare device before relying on it</li>
+</ul>
+
+This is an OS-level KeyMint wipe, not GrapheneOS Weaver/SE duress. Magisk and LSPosed weaken the locked-device story compared with a stock hardened ROM.
+
+Developed by Mahyar Darvishi (https://github.com/BuddySirJava).
+
+F-Droid Anti-Feature: RequiresRoot.

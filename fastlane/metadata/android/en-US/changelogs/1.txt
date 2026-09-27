@@ -1,0 +1,1 @@
+Initial release. Magisk + LSPosed duress PIN with in-app test attempts, fail-closed arming, KeyMint deleteAllKeys (retry), recovery userdata wipe, then shutdown.

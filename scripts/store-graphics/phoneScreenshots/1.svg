@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#0E0E10"/>
+  <text x="48" y="72" fill="#E8E8EA" font-size="40" font-family="DejaVu Sans, Noto Sans, sans-serif" font-weight="700">Dont Xpose Me</text>
+  <text x="48" y="112" fill="#B0B0B8" font-size="24" font-family="DejaVu Sans, Noto Sans, sans-serif">Duress PIN · Magisk / LSPosed</text>
+
+  <rect x="40" y="148" width="1000" height="140" rx="24" fill="#1B3A1F"/>
+  <text x="80" y="210" fill="#C8E6C9" font-size="40" font-family="DejaVu Sans, Noto Sans, sans-serif" font-weight="700">TEST MODE</text>
+  <text x="80" y="256" fill="#C8E6C9" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif">Matches are logged — wipe is off</text>
+
+  <rect x="40" y="316" width="1000" height="160" rx="24" fill="#18181C"/>
+  <text x="80" y="372" fill="#E8E8EA" font-size="30" font-family="DejaVu Sans, Noto Sans, sans-serif" font-weight="700">Next step</text>
+  <text x="80" y="424" fill="#E8E8EA" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif">Enter the duress PIN at the lock screen, then refresh.</text>
+
+  <rect x="40" y="504" width="1000" height="360" rx="24" fill="#18181C"/>
+  <text x="80" y="564" fill="#E8E8EA" font-size="30" font-family="DejaVu Sans, Noto Sans, sans-serif" font-weight="700">Setup checklist</text>
+  <circle cx="96" cy="620" r="14" fill="#66BB6A"/>
+  <text x="128" y="628" fill="#E8E8EA" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif">Magisk root</text>
+  <text x="960" y="628" fill="#66BB6A" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif" text-anchor="end" font-weight="700">Done</text>
+  <circle cx="96" cy="680" r="14" fill="#66BB6A"/>
+  <text x="128" y="688" fill="#E8E8EA" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif">Hook heartbeat</text>
+  <text x="960" y="688" fill="#66BB6A" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif" text-anchor="end" font-weight="700">Done</text>
+  <circle cx="96" cy="740" r="14" fill="#66BB6A"/>
+  <text x="128" y="748" fill="#E8E8EA" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif">Duress PIN set</text>
+  <text x="960" y="748" fill="#66BB6A" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif" text-anchor="end" font-weight="700">Done</text>
+  <circle cx="96" cy="800" r="14" fill="#3A3A42"/>
+  <text x="128" y="808" fill="#E8E8EA" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif">Test match recorded</text>
+  <text x="960" y="808" fill="#B0B0B8" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif" text-anchor="end" font-weight="700">Optional</text>
+
+  <rect x="40" y="896" width="1000" height="420" rx="24" fill="#18181C"/>
+  <text x="80" y="956" fill="#E8E8EA" font-size="30" font-family="DejaVu Sans, Noto Sans, sans-serif" font-weight="700">1 · Duress PIN</text>
+  <text x="80" y="1004" fill="#B0B0B8" font-size="24" font-family="DejaVu Sans, Noto Sans, sans-serif">Not your real lock PIN. Min 4 digits. Salted hash only.</text>
+  <rect x="80" y="1036" width="920" height="88" rx="12" fill="none" stroke="#3A3A42" stroke-width="2"/>
+  <text x="104" y="1092" fill="#B0B0B8" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif">Duress PIN</text>
+  <rect x="80" y="1148" width="920" height="88" rx="12" fill="none" stroke="#3A3A42" stroke-width="2"/>
+  <text x="104" y="1204" fill="#B0B0B8" font-size="26" font-family="DejaVu Sans, Noto Sans, sans-serif">Confirm</text>
+
+  <rect x="40" y="1352" width="1000" height="280" rx="24" fill="#18181C"/>
+  <text x="80" y="1412" fill="#E8E8EA" font-size="30" font-family="DejaVu Sans, Noto Sans, sans-serif" font-weight="700">3 · Arm</text>
+  <text x="80" y="1464" fill="#B0B0B8" font-size="24" font-family="DejaVu Sans, Noto Sans, sans-serif">Only after a test match. Arming turns test mode off.</text>
+  <rect x="80" y="1504" width="920" height="80" rx="40" fill="#E53935"/>
+  <text x="540" y="1556" fill="#FFFFFF" font-size="28" font-family="DejaVu Sans, Noto Sans, sans-serif" font-weight="700" text-anchor="middle">Arm wipe (test first)</text>
+</svg>
